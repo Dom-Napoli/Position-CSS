@@ -1,0 +1,81 @@
+nav {
+   background: black;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 1;
+   color: white;
+}
+
+ul {
+   
+}
+
+li {
+   display: inline;
+   margin-inline: 25px;
+   font-size: 2em;
+}
+
+
+body {
+   margin: 0;
+   background-color: navy;
+   text-align: center; 
+   height: 200vh;
+   color: blue;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 20px;
+}
+
+
+div {
+ display: inline-block;
+ height: 100px;
+ width: 100px;
+ border: 3px solid blue;
+}
+
+
+main {
+background: goldenrod;
+width: 70%;
+margin: 0 auto;
+margin-top: 120px;
+height: 100%;
+position: relative;
+}
+
+.static {
+   background: white;
+}
+
+.relative {
+   background: cornsilk;
+   position: relative;
+   top: 150px;
+   right: 250px;
+}
+
+.absolute {
+   background: white;
+   position: absolute;
+   top: 250px;
+   left: 50px;
+}
+
+.fixed {
+   background: cornsilk;
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   border-radius: 50px;
+   margin: 15px;
+
+}
+
+.sticky {
+   background: white;
+   position: sticky; 
+   top: 200px;
+}
